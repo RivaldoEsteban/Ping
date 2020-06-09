@@ -1,0 +1,84 @@
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 100px auto;
+}
+.content {
+  text-align: center;
+}
+.header h1 {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+strong {
+  color: black;
+}
+.botones {
+  margin-top: 30px;
+}
+.botones input {
+  color: hsl(223, 100%, 88%);
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 20px;
+  width: 350px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+.botones a {
+  border: 1px solid;
+  height: 40px;
+  text-decoration: none;
+  color: white;
+  background: hsl(223, 87%, 63%);
+  padding: 15px 40px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.image-principal {
+  max-width: 600px;
+  margin: auto;
+}
+.image-principal img {
+  margin: 100px auto;
+  max-width: 100%;
+}
+.fab {
+  margin: auto 5px;
+  color: hsl(223, 87%, 63%);
+  border: 2px solid hsl(223, 100%, 88%);
+  padding: 5px;
+  width: 12px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+.footer p {
+  font-size: 12px;
+}
+@media screen and (max-width: 375px) {
+  .botones a {
+    margin-top: 20px;
+  }
+  .header h1 {
+    font-size: 25px;
+    margin-top: 50px;
+  }
+  .header p {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .botones input {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  .botones a {
+    width: 300px;
+    padding: 15px 125px;
+  }
+  .image-principal {
+    margin: auto 15px;
+  }
+}
